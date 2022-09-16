@@ -1,10 +1,6 @@
 package com.yilin.leetcode;
 
 import com.yilin.utils.TreeNode;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
 /**
  * 第226题翻转二叉树
  */
