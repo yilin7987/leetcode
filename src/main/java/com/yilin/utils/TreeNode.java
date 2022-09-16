@@ -7,17 +7,21 @@ import lombok.Data;
  * 树结点
  */
 //二叉树节点的定义。（Definition for a binary tree node）.
-@Data
 public class TreeNode {
-    private int val;
-    private TreeNode left;
-    private TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
-    TreeNode() {
+    public TreeNode() {
     }
 
     public TreeNode(int val) {
         this.val = val;
+    }
+
+    public TreeNode(int val, TreeNode left) {
+        this.val = val;
+        this.left = left;
     }
 
     public TreeNode(int val, TreeNode left, TreeNode right) {
