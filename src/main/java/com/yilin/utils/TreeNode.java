@@ -1,12 +1,10 @@
 package com.yilin.utils;
 
-import lombok.Data;
-
 /**
  * 题目工具
  * 树结点
  */
-//二叉树节点的定义。（Definition for a binary tree node）.
+//二叉树结点的定义。（Definition for a binary tree node）.
 public class TreeNode {
     public int val;
     public TreeNode left;
