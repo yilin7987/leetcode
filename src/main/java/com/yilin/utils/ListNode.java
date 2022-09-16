@@ -6,17 +6,17 @@ package com.yilin.utils;
  */
 //链表结点的定义。Definition for singly-linked list
 public class ListNode {
-    int val;//值
-    ListNode next;//下一个结点
+    public int val;//值
+    public ListNode next;//下一个结点
 
     ListNode() {
     }
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
-    ListNode(int val, ListNode next) {
+    public ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }
