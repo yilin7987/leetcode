@@ -12,7 +12,7 @@ public class No_226_翻转二叉树 {
         //   ②      ③
         // ④  ⑤
         TreeNode root = new TreeNode(1, new TreeNode
-                (2, new TreeNode(4), new TreeNode(5)), new TreeNode(3, new TreeNode(6)));
+                (2, new TreeNode(4), new TreeNode(5)), new TreeNode(3));
         invertTree(root);
     }
 
