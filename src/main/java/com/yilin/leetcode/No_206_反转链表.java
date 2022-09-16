@@ -48,6 +48,20 @@ public class No_206_反转链表 {
         return temp;
     }
 
+    //迭代，有点绕
+    /*
+    public ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        ListNode curr = head;
+        while (curr != null) {
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+    */
     //打印链表
     public static void printListNode(ListNode head) {
         if (head == null) return;
