@@ -9,15 +9,12 @@ public class No_136_只出现一次的数字 {
         int number = singleNumber(nums);
         System.out.println(number);
     }
-
     public static int singleNumber(int[] nums) {
-
         int single = nums[0];
         for (int i = 1; i < nums.length; i++) {
             single ^= nums[i];
         }
         return single;
-
         /*
         //  数字     数字的个数
         Map<Integer, Integer> map = new HashMap<>();
