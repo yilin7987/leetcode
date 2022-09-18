@@ -9,7 +9,7 @@ public class ListNode {
     public int val;//值
     public ListNode next;//下一个结点
 
-    ListNode() {
+    public ListNode() {
     }
 
     public ListNode(int val) {
