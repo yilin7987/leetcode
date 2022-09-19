@@ -12,7 +12,9 @@ public class No_283_移动零 {
     }
 
     public static void moveZeroes(int[] nums) {
-
+        if (nums == null) {
+            return;
+        }
         int j = 0;
         for (int i = 0; i < nums.length; i++) {
             //nums[i]为0，i++；nums[i]不为0，i和j交换，i++，j++；
