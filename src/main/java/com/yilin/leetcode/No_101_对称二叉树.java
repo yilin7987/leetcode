@@ -1,10 +1,5 @@
 package com.yilin.leetcode;
-
 import com.yilin.utils.TreeNode;
-
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class No_101_对称二叉树 {
     public static void main(String[] args) {
         //           ①
